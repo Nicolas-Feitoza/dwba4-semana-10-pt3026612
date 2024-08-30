@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/slide.css">
     <title>HOME - IFSP - Pirituba</title>
     <script src="js/disabling.js"></script>
+    <script type="text/javascript" src="js/slide.js" defer></script>
 </head>
 
 <body>
@@ -21,7 +22,8 @@
 
     <main id="conteudo">
 
-        <div class="mySlides fade">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
             <div class="numbertext">1 / 4</div>
             <img src="Imagens/A.png" style="width:50%">
             </div>
@@ -38,13 +40,16 @@
 
             <div class="mySlides fade">
             <div class="numbertext">4 / 4</div>
-            <iframe align="center" width=50% height=50% src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div allign="center">
+            <iframe width=50% height=50% src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             </div>
         
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
+        
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
